@@ -10,7 +10,7 @@ from utils import (
 
 st.set_page_config(page_title="Company News Summarizer", layout="wide")
 
-st.title("📈 Company News Summarization & Sentiment Analysis (with Hindi TTS)")
+st.title("📈 Company News Summarization")
 st.markdown("Enter a company name to fetch and analyze recent news articles.")
 
 company = st.text_input("Enter Company Name")
